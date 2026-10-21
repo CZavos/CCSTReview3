@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz 3: Cisco CCST Networking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to quiz</a>
+
+  <div class="wrap">
+    <header class="site-head no-print">
+      <div class="title-block">
+        <h1>Quiz 3</h1>
+        <p class="sub">Cisco CCST networking practice</p>
+      </div>
+      <div class="panel" aria-label="Quiz progress">
+        <nav id="ports" aria-label="Question navigator"></nav>
+        <p id="tally" class="tally" aria-live="polite"></p>
+        <p class="legend">
+          <span><i class="sw good"></i>Correct</span>
+          <span><i class="sw bad"></i>Missed</span>
+          <span><i class="sw cur"></i>Current</span>
+        </p>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <noscript>This quiz needs JavaScript. Turn it on in your browser and reload the page.</noscript>
+    </main>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
